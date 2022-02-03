@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(238, 80, 80);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.item-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  margin-top: 20px;
+  overflow-wrap:break-word ;
+}
+.item-image{
+width: 150px;
+height: 150px;
+margin: 25px 0px 0px 25px;
+border-radius: 25%;
+}
+.item-name{
+  text-align: center;
+  color: black;
+ height: auto;
+ width: fit-content;
+ text-orientation: sideways-right;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-weight: 800;
+ row-gap: 10%;
+}
+.item-link{
+  text-align: center;
+  color: black;
+  text-decoration: solid 50px;
+  text-shadow: black;
+  row-gap: 100px;
+}
+.home-wrapper{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10%;
+  overflow-wrap: break-word;
+}
+.item-wrapper{
+  height: 250px;
+  width: 250px;
+  box-shadow: black;
+  border-radius: 10px;
+}
+.item-wrapper:hover{
+  box-shadow: 1px 1px 6px 5px #575454;
+  background-color: rgb(212, 41, 41);
+  border-radius: 14px;
+}
+.item-link:hover{
+  text-shadow: rgb(233, 77, 77);
+  text-align-last: center;
+
+  
+}
+.item-link{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-decoration-style: solid;
+  text-decoration-thickness: 200px;
+  text-decoration-color: darkgrey;
+}
+.head-title{
+  width: 80%;
+  text-align: center;
+  font-size:25px;
+  margin-top: 10px;
+  margin-left: 50px;
+  background-color: rgb(233, 77, 77);
+  width: 100%;
+  height: auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 250%;
+  font-weight: bolder;
+}
+.head-cart{
+  width:10%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  text-align: right;
+  padding-right: 5px;
+  margin-right: 100%;
+  
+  
+}
+.home-wrapper{
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  background-color: blueviolet;
+  width: 100%;
+  height: auto;
+  color: aliceblue;
+  padding-bottom: 5px;
+}
+.product-weapper>h2{
+  text-align:center;
+  color: black;
+}
+.product-item-wrapper{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-top: 1px solid rgb(218,218,218);
+  margin: auto;
+  padding: 10px;
+}
+.product-details{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.product-details>h4{
+  margin-bottom: 11px;
+}
+.product-price{
+  margin-bottom: 11px;
+}
+.product-description{
+  color: #888888;
+  width: 100%;
+  margin-bottom: 11px;
+}
+.product-btn{
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(212, 41, 41);
+  border: none;
+  width:120px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.product-btn:hover{
+  cursor: pointer;
+  font-size: 21;
+  width: 125px;
+}
+.product-image{
+  width:150px;
+  height: 150px;
+}
+.product-image>img{
+  width: 150px;
+  height: 150px;
+  border-radius: 45%;
+  display: flex;
+  flex-direction: row;
+}
+.product-btn-placeorder{
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(24, 131, 10);
+  border: none;
+  width:120px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 40%;
+  margin-right: 58%;
+
+}
+.product-price-name{
+font-display: blue;
+margin-right: 45%;
+margin-left: 40%;
+font-size: 100%;
+}
